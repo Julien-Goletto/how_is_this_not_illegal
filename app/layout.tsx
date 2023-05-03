@@ -28,6 +28,7 @@ export default function RootLayout({
           </div>
           <p>This page uses React Server Components and NextJS 13 app directory features. 🚀</p>
           <p>But last and not the least : it queries at each request a serverless postgreSQL database ! 🫢</p>
+          <p>Yes, my server component queries <code className='bg-slate-300 p-2 text-slate-700'>SELECT * FROM pokemon_with_types ORDER BY RANDOM() LIMIT 12;</code> each time you refresh the page !</p>
           <p>⛏️ You want to dig it ? See my <Link href="https://github.com/Julien-Goletto/how_is_this_not_illegal" className='underline text-slate-700'>public repository</Link></p>
           
         </header>
