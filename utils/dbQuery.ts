@@ -13,7 +13,6 @@ export const dbQuery = async (query : string) => {
   }
 
   try {
-    const query = `SELECT * FROM pokemon ORDER BY RANDOM() LIMIT 12;`
     const { rows } = await client.query(query);
     return rows;
   } catch(err){

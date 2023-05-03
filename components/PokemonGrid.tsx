@@ -1,8 +1,19 @@
 import Image from 'next/image'
 import { PokemonCard } from './PokemonCard';
+import type { Pokemon } from '~/types/Pokemon';
 
-export const PokemonGrid = () => {
+type PokemonGridProps = {
+  pokemons: Pokemon[];
+}
+
+export const PokemonGrid = ({ pokemons }: PokemonGridProps) => {
   return (
-    <p>Coucou</p>
+    <section>
+      {
+        pokemons.map((p) => (
+          <PokemonCard pokemon={p}/>
+        ))
+      }
+    </section>
   );
 };

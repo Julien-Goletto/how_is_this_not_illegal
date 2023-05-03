@@ -1,5 +1,11 @@
-export const PokemonCard = () => {
+import type { Pokemon } from "~/types/Pokemon";
+
+type PokemonCardProps = {
+  pokemon: Pokemon;
+}
+
+export const PokemonCard = ({ pokemon } : PokemonCardProps) => {
   return (
-    <p>Pokemon Card</p>
+    <p>{pokemon.name}</p>
   );
 };
