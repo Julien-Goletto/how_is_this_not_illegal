@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { PokemonCard } from './PokemonCard';
 import type { Pokemon } from '~/types/Pokemon';
 
