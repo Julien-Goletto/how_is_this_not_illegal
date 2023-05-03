@@ -257,7 +257,6 @@ INSERT INTO pokemon_has_type (pokemon_id, type_id)
 VALUES 
   (12, 12),  -- Bug
   (12, 10),  -- Flying
-  (12, 6);  -- Psychic
   
 -- Pokemon 13: Weedle
 INSERT INTO pokemon_has_type (pokemon_id, type_id)
@@ -445,25 +444,25 @@ VALUES
 INSERT INTO pokemon_has_type (pokemon_id, type_id)
 VALUES 
   (46, 5),  -- Grass
-  (46, 9);  -- Ground
+  (46, 12);  -- Bug
   
 -- Pokemon 47: Parasect
 INSERT INTO pokemon_has_type (pokemon_id, type_id)
 VALUES 
   (47, 5),  -- Grass
-  (47, 9);  -- Ground
+  (47, 12);  -- Bug
   
 -- Pokemon 48: Venonat
 INSERT INTO pokemon_has_type (pokemon_id, type_id)
 VALUES 
   (48, 8),  -- Poison
-  (48, 5);  -- Grass
+  (48, 12);  -- Bug
   
 -- Pokemon 49: Venomoth
 INSERT INTO pokemon_has_type (pokemon_id, type_id)
 VALUES 
   (49, 8),  -- Poison
-  (49, 5);  -- Grass
+  (49, 12);  -- Bug
   
 -- Pokemon 50: Diglett
 INSERT INTO pokemon_has_type (pokemon_id, type_id)
@@ -635,13 +634,13 @@ VALUES
 INSERT INTO pokemon_has_type (pokemon_id, type_id)
 VALUES 
   (81, 12),  -- Electric
-  (81, 3);  -- Ground
+  (81, 17);  -- Steel
   
 -- Pokemon 82: Magneton
 INSERT INTO pokemon_has_type (pokemon_id, type_id)
 VALUES 
   (82, 12),  -- Electric
-  (82, 3);  -- Ground
+  (82, 17);  -- Steel
   
 -- Pokemon 83: Farfetch'd
 INSERT INTO pokemon_has_type (pokemon_id, type_id)
@@ -856,7 +855,7 @@ VALUES
 INSERT INTO pokemon_has_type (pokemon_id, type_id)
 VALUES 
   (122, 14),  -- Psychic
-  (122, 5);  -- Normal
+  (122, 18);  -- Fairy
   
 -- Pokemon 123: Scyther
 INSERT INTO pokemon_has_type (pokemon_id, type_id)
@@ -935,7 +934,7 @@ VALUES
 -- Pokemon 137: Porygon
 INSERT INTO pokemon_has_type (pokemon_id, type_id)
 VALUES 
-  (137, 14);  -- Psychic
+  (137, 5);  -- Normal
   
 -- Pokemon 138: Omanyte
 INSERT INTO pokemon_has_type (pokemon_id, type_id)
