@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "db:init": "source .env.local && psql $POSTGRES_URL_NON_POOLING -f sql/init.sql",
+    "db:drop": "source .env.local && psql $POSTGRES_URL_NON_POOLING -f sql/drop.sql"
   },
   "dependencies": {
     "@types/node": "18.16.3",
