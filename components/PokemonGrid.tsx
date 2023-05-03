@@ -8,12 +8,12 @@ type PokemonGridProps = {
 
 export const PokemonGrid = ({ pokemons }: PokemonGridProps) => {
   return (
-    <section>
+    <ul className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
       {
         pokemons.map((p) => (
           <PokemonCard pokemon={p}/>
         ))
       }
-    </section>
+    </ul>
   );
 };
