@@ -5,6 +5,7 @@ extends:
   - eslint:recommended
   - plugin:react/recommended
   - plugin:@typescript-eslint/strict
+  - next/core-web-vitals
   - plugin:github/recommended
   - plugin:import/recommended
   - plugin:unicorn/recommended
@@ -116,9 +117,3 @@ rules:
   import/no-duplicates: error
   unicorn/filename-case: 0
   unicorn/prevent-abbreviations: 0
-
-  unicorn/no-null: 0
-
-  react/react-in-jsx-scope: 0
-  import/no-unresolved: 0
-  unicorn/no-useless-undefined: 0

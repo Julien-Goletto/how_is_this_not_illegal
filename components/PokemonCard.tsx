@@ -5,11 +5,10 @@ type PokemonCardProps = {
   pokemon: Pokemon;
 }
 
-export const PokemonCard = ({ pokemon: { id, name, types} } : PokemonCardProps) => {
+export const PokemonCard = ({ pokemon: { id, name, types} }: PokemonCardProps) => {
   const hexaOpacity = '40';
   return (
     <li 
-      key={name}
       className='w-[1/4] flex flex-col gap-2 px-4 py-8 items-center bg-slate-50 border border-slate-300 rounded-md drop-shadow-lg'
       style={{background: types.length > 1 
         ? `linear-gradient(0.25turn, ${types.map((t) => (t.color + hexaOpacity)).slice(0,2).join(', ')})`

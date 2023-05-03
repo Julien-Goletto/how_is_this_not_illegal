@@ -1,17 +1,18 @@
 import './globals.css';
 import { Inter } from 'next/font/google';
-const inter = Inter({ subsets: ['latin'] });
 import Link from 'next/link';
+import type { ReactNode } from 'react';
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Modern React and NextJS use, serverless deployed with... a serverless database !!! B)',
   description: `Freely adapted from Guillermo Rauch's "How is this not illegal ?" : https://twitter.com/rauchg/status/1653448770766663680?s=20`,
-}
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: ReactNode
 }) {
   return (
     <html lang="en">
@@ -47,5 +48,5 @@ export default function RootLayout({
         </footer>
       </body>
     </html>
-  )
+  );
 }
