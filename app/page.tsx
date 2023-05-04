@@ -11,5 +11,5 @@ export default async function Home() {
   );
 }
 
-export const runtime = "edge";
+// export const runtime = "edge";
 export const dynamic = "force-dynamic";
