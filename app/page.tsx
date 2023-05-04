@@ -11,5 +11,6 @@ export default async function Home() {
   );
 }
 
-export const runtime = "edge";
+// export const runtime = (process.env.NODE_ENV === 'development')? 'nodejs' : 'edge';
+export const runtime = 'edge';
 export const dynamic = "force-dynamic";
