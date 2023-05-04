@@ -256,7 +256,7 @@ VALUES
 INSERT INTO pokemon_has_type (pokemon_id, type_id)
 VALUES 
   (12, 12),  -- Bug
-  (12, 10),  -- Flying
+  (12, 10);  -- Flying
   
 -- Pokemon 13: Weedle
 INSERT INTO pokemon_has_type (pokemon_id, type_id)
